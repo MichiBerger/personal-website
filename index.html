@@ -5,72 +5,87 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Michi Berger</title>
-
+  <title>Michi Berger | Web Developement Student at neuefische GmbH</title>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@300;400;700&family=Vidaloka&display=swap" rel="stylesheet">  
   <!-- Fontawesome (https://fontawesome.com) -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
 integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<!-- Stylesheet -->
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>Michi Berger</h1>
-    <nav>
-      <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
-    </nav>
-  </header>
+  <div class="container">
+    <header>
+      <h1><span class="thin">Michi</span><span class="bold">Berger</span></h1>
+      <p>web dev student at neuefische GmbH</p>
+      <nav>
+        <a class="button nav-btn" href="#contact">Contact</a>
+        <a class="button nav-btn" href="#biography">Biography</a>
+      </nav>
+    </header>
 
-  <figure>
-    <img src="https://source.unsplash.com/random/600x300" alt="">
-    <figcaption>A random picture from unsplash.com</figcaption>
-  </figure>
+    <figure>
+      <img src="https://source.unsplash.com/random/600x300" alt="A random picture from unsplash.com" width="600" height="300">
+      <figcaption>A random picture from unsplash.com</figcaption>
+    </figure>
+    
+    <section id="skills">
+      <div class="frontend-skills">
+        <div>
+          <h2>Dev Languages</h2>
+        </div>
+        <div class="list-container">
+          <ul class="frontend-skills-liste">
+            <li class="button list-btn">html</li>
+            <li class="button list-btn">css</li>
+            <li class="button list-btn">Javascript</li>
+          </ul>
+        </div>
+        <div class="frontend-skills dev-tools">
+          <h2>Dev Tools</h2>
+        </div>
+        <div class="list-container">
+          <ul class="frontend-skills-liste">
+            <li class="button list-btn">github</li>
+            <li class="button list-btn">shell</li>
+            <li class="button list-btn">wordpress</li>
+          </ul>
+        </div>
+    </section>
 
-  <!-- skills section - e.g. skills (dev tools, dev languages), hobbies or interests -->
-  <section id="skills">
-    <h2 class="frontend-skills">Front-end Dev Languages:</h2>
-    <ul>
-      <li><i class="fab fa-html5"></i> | Semantic HTML</li>
-      <li><i class="fab fa-css3-alt"></i> | Responsive CSS</li>
-      <li><i class="fab fa-js"></i> | Javascript Basics</li>
-    </ul>
-    <h2 class="dev-tools">Dev Tools:</h2>
-    <ul>
-      <li><i class="fab fa-github"></i> | Github</li>
-      <li><i class="fas fa-terminal"></i></i> | Shell/Terminal</li>
-      <li><i class="fab fa-wordpress"></i> | Wordpress</li>
-    </ul>
-  </section>
-
-  <!-- contact section - address, email -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <address>
-      Num:<br>
-      +49 (0)170 - 233 XX XX <br>
-      <br>
-      Mail:<br>
-      <a href="mailto:mberger83@yahoo.de">mberger83@yahoo.de</a>
-    </address>
-  </section>
-
-  <!-- recent-work section - github, codepen,  -->
-  <section id="recent-work"></section>
-
-  <!-- about-me section - short intro about me -->
-  <section id="about-me"></section>
-
-  <!-- biography section - working experience, education -->
-  <section id="biography">
-    <h2>Biography</h2>
-  </section>
-
-  <!-- footer and social-media section e.g. linkedIn, instagram, facebook -->
-  <footer id="footer">
-    <section id="social-media"></section>
-  </footer>
-  
+    <section id="contact" class="frontend-skills">
+        <h2>Contact</h2>
+        <address>
+          <div class="address number">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
+          </div>
+          <div class="address email">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
+          </div>
+        </address>
+    </section>
+    <!-- recent-work section - github, codepen,  -->
+    <section id="recent-work">
+      <h2>Github - Codepen - LinkedIn Pictures</h2>
+    </section>
+    <!-- about-me section - short intro about me -->
+    <section id="about-me">
+      <h2>About me</h2>
+    </section>
+    <!-- biography section - working experience, education -->
+    <section id="biography">
+      <h2>Biography</h2>
+    </section>
+    <!-- footer and social-media section e.g. linkedIn, instagram, facebook -->
+    <footer id="footer">
+      <section id="social-media"></section>
+    </footer>
+    
+  </div>
 </body>
 
 </html>
