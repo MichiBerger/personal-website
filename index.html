@@ -18,13 +18,17 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
 </head>
 
 <body>
+
   <div class="container">
+    
     <header>
-      <h1><span class="thin">Michi</span><span class="bold">Berger</span></h1>
+      <h1 class="title"><span class="thin">Michi</span><span class="bold">Berger</span></h1>
       <p>web dev student at neuefische GmbH</p>
-      <nav>
-        <a class="button nav-btn" href="#contact">Contact</a>
-        <a class="button nav-btn" href="#biography">Biography</a>
+      <nav class="nav-header">
+        <a class="button nav-header-btn nav-header-btn1" href="#skills">Skills</a>
+        <a class="button nav-header-btn nav-header-btn2" href="#contact">Contact</a>
+        <a class="button nav-header-btn nav-header-btn3" href="#contact">Works</a>
+        <a class="button nav-header-btn nav-header-btn4" href="#biography">Biography</a>
       </nav>
     </header>
 
@@ -35,54 +39,81 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
       </figure>
       
       <section id="skills">
-        <div class="frontend-skills">
-          <div>
-            <h2>Dev Languages</h2>
+        <div class="skills-ctn">
+
+          <div class="skills-item skills-item-header">
+            <h2>DevLanguages</h2>
           </div>
-          <div class="list-container">
-            <ul class="frontend-skills-liste">
+          <div class="skills-item list-container">
+            <ul class="list-item">
               <li class="button list-btn">html</li>
               <li class="button list-btn">css</li>
               <li class="button list-btn">Javascript</li>
             </ul>
           </div>
-          <div class="frontend-skills dev-tools">
-            <h2>Dev Tools</h2>
+
+          <div class="skills-item skills-item-header">
+            <h2>DevTools</h2>
           </div>
-          <div class="list-container">
-            <ul class="frontend-skills-liste">
+          <div class="skills-item list-container">
+            <ul class="list-item">
               <li class="button list-btn">github</li>
               <li class="button list-btn">shell</li>
               <li class="button list-btn">wordpress</li>
             </ul>
           </div>
+
+        </div>
       </section>
 
+
       <section id="contact" class="frontend-skills">
-          <h2>Contact</h2>
-          <address>
-            <div class="address number">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
-            </div>
-            <div class="address email">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
-            </div>
-          </address>
+
+          <div class="contact-ctn">
+
+            <h2 class="contact-item content-item-header">ContactMe</h2>
+
+            <address id="address" class="contact-item adress-ctn">
+
+              <div class="address-item">
+                <div class="address-item-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="address-item-number button">
+                  <p>+49 (0)170 - 233 XX XX</p>
+                </div>
+              </div>
+            
+              <div class="address-item email">
+                <div class="address-item-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="address-item-mail button">
+                  <a href="mailto:mberger83@yahoo.de">mberger83@xx.xx</a>
+                </div>
+              </div>
+
+            </address>
+
+          </div>
+
       </section>
+
+
       <!-- recent-work section - github, codepen,  -->
       <section id="recent-work">
         <h2>Github - Codepen - LinkedIn Pictures</h2>
         <div class="article-container">
           <article>
-            <img src="github-logo-octocat-800w.jpg" alt="Logo of github.com" width="300px" height="150px">
+            <img src="#" alt="Logo of github.com" width="300px" height="150px">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
           </article>
           <article>
-            <img src="codepen-logo-600x300.png" alt="" width="300px" height="150px">
+            <img src="#" alt="" width="300px" height="150px">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
           </article>
           <article>
-            <img src="linkedin-logo-2212x540.png" alt="300px" width="150px" height="">
+            <img src="#" alt="300px" width="150px" height="">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
           </article>
         </div>

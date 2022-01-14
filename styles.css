@@ -17,9 +17,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
+a {
+    text-decoration: none;
+}
 header {
     color:#4831d4;
-    /* color: #ccf381; #3d155f */
     padding: 10px;
     margin-top: 10px;
     vertical-align: center;
@@ -29,7 +31,9 @@ header {
 }
 h1 {
     margin: 5px 0 0;
-    text-transform: uppercase;
+    text-transform: uppercase;display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1 .thin {
     font-weight: 300;
@@ -50,21 +54,25 @@ header p {
     color: #4831d4;
     text-decoration: none;
     box-shadow: 0px 2px 2px rgba(0,104,216, 20%);
-    flex-grow: 1;
-    flex-basis: 0;
-}
-.nav-btn:hover {
-    background-color: #6551db;
-    color: white;
-    transition-duration: 500ms;
 }
 nav {
-    margin: 0 0;
     display: flex;
+}
+.nav-header {
+    margin: 0 0;
     gap: 5px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+.nav-header-btn{
+    flex-grow: 1;
+    flex-basis: 0;
+} 
+.nav-header-btn:hover {
+    background-color: #6551db;
+    color: white;
+    transition-duration: 500ms;
 }
 figure {
     margin: 10px 0;
@@ -83,13 +91,12 @@ ul {
 }
 /* skills section */
 #skills{
-    border: 1px solid #3d155f;
     background-color: #4831d4;
     color:#ccf381; 
     /* #4831d4; */
     padding-bottom: 25px;
 } 
-.frontend-skills {
+.skills-ctn, .skills-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,7 +104,7 @@ ul {
 .list-container {
     width: 100%;
 }
-.frontend-skills-liste {
+.list-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,12 +112,13 @@ ul {
     gap: 4px;
     flex-wrap: wrap;
 }
-.frontend-skills-liste li {
+.list-item li {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.frontend-skills h2 {
+
+.skills-item-header, .content-item-header {
     margin: 15px 0 15px;
 }
 .list-btn {
@@ -123,23 +131,45 @@ li i {
 /* contact section */
 #contact {
     color: #4831d4;
+    padding-bottom: 25px;
+    
 }
-
-address {
-    width: 100%;
+.contact-ctn, .adress-ctn, .address-item {
     display: flex;
-    flex-direction: row;
+}
+.contact-ctn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.adress-ctn {
     align-items: center;
     justify-content: center;
-}
-.address {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.address-item-icon i{
+    font-size: 1.5rem;
+    color: #ccf381;
+    background-color: #4831d4;
+    padding: 10px;
+    border-radius: 8px;
+} 
+.address-item {
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 1;
+    padding: 10px; 
 }
 
-
-
-
+.address-item-number, .address-item-mail a{
+    font-size: 1.2rem;
+    font-style: normal;
+    color: #4831d4;
+    
+}
+.address-item-mail a {
+    text-decoration: none;
+}
