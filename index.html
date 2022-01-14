@@ -28,61 +28,89 @@ integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChi
       </nav>
     </header>
 
-    <figure>
-      <img src="https://source.unsplash.com/random/600x300" alt="A random picture from unsplash.com" width="600" height="300">
-      <figcaption>A random picture from unsplash.com</figcaption>
-    </figure>
-    
-    <section id="skills">
-      <div class="frontend-skills">
-        <div>
-          <h2>Dev Languages</h2>
-        </div>
-        <div class="list-container">
-          <ul class="frontend-skills-liste">
-            <li class="button list-btn">html</li>
-            <li class="button list-btn">css</li>
-            <li class="button list-btn">Javascript</li>
-          </ul>
-        </div>
-        <div class="frontend-skills dev-tools">
-          <h2>Dev Tools</h2>
-        </div>
-        <div class="list-container">
-          <ul class="frontend-skills-liste">
-            <li class="button list-btn">github</li>
-            <li class="button list-btn">shell</li>
-            <li class="button list-btn">wordpress</li>
-          </ul>
-        </div>
-    </section>
+    <main>
+      <figure>
+        <img src="https://source.unsplash.com/random/600x300" alt="A random picture from unsplash.com" width="600" height="300">
+        <figcaption>A random picture from unsplash.com</figcaption>
+      </figure>
+      
+      <section id="skills">
+        <div class="frontend-skills">
+          <div>
+            <h2>Dev Languages</h2>
+          </div>
+          <div class="list-container">
+            <ul class="frontend-skills-liste">
+              <li class="button list-btn">html</li>
+              <li class="button list-btn">css</li>
+              <li class="button list-btn">Javascript</li>
+            </ul>
+          </div>
+          <div class="frontend-skills dev-tools">
+            <h2>Dev Tools</h2>
+          </div>
+          <div class="list-container">
+            <ul class="frontend-skills-liste">
+              <li class="button list-btn">github</li>
+              <li class="button list-btn">shell</li>
+              <li class="button list-btn">wordpress</li>
+            </ul>
+          </div>
+      </section>
 
-    <section id="contact" class="frontend-skills">
-        <h2>Contact</h2>
-        <address>
-          <div class="address number">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
+      <section id="contact" class="frontend-skills">
+          <h2>Contact</h2>
+          <address>
+            <div class="address number">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
+            </div>
+            <div class="address email">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
+            </div>
+          </address>
+      </section>
+      <!-- recent-work section - github, codepen,  -->
+      <section id="recent-work">
+        <h2>Github - Codepen - LinkedIn Pictures</h2>
+        <div class="article-container">
+          <article>
+            <img src="github-logo-octocat-800w.jpg" alt="Logo of github.com" width="300px" height="150px">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
+          </article>
+          <article>
+            <img src="codepen-logo-600x300.png" alt="" width="300px" height="150px">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
+          </article>
+          <article>
+            <img src="linkedin-logo-2212x540.png" alt="300px" width="150px" height="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
+          </article>
+        </div>
+      </section>
+      <!-- about-me section - short intro about me -->
+      <section id="about-me">
+        <h2>About me</h2>
+        <div class="about-me-ctn">
+          <div class="about-me-item" >
+            <h3>About me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio, perferendis earum consequatur fugiat ad quam tenetur modi eos. Ratione?</p>
           </div>
-          <div class="address email">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, incidunt!</p>
+          <div class="about-me-item" id="biography">
+            <h3>Biography</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio, perferendis earum consequatur fugiat ad quam tenetur modi eos. Ratione?</p>
           </div>
-        </address>
-    </section>
-    <!-- recent-work section - github, codepen,  -->
-    <section id="recent-work">
-      <h2>Github - Codepen - LinkedIn Pictures</h2>
-    </section>
-    <!-- about-me section - short intro about me -->
-    <section id="about-me">
-      <h2>About me</h2>
-    </section>
-    <!-- biography section - working experience, education -->
-    <section id="biography">
-      <h2>Biography</h2>
-    </section>
+        </div>
+      </section>
+    </main>
     <!-- footer and social-media section e.g. linkedIn, instagram, facebook -->
     <footer id="footer">
-      <section id="social-media"></section>
+      <nav class="nav-footer">
+        <a href="#skills" class="nav-footer-item">Skills</a>
+        <a href="#contact" class="nav-footer-item">Contact</a>
+        <a href="#recent-work" class="nav-footer-item">Recent Works</a>
+        <a href="#about-me" class="nav-footer-item">About me</a>
+      </nav>
+      <p>&copy;Copyright 2022</p>
     </footer>
     
   </div>
