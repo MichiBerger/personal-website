@@ -178,16 +178,22 @@ li i {
     color:#ccf381; 
     padding-bottom: 25px;
 } 
-.recent-work-ctn, .article-cnt {
+.recent-work-ctn {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 .article-cnt {
-    gap: 10px;;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-.article-item {
+article {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+/* .article-item {
     flex-direction: column;
     border: 1px solid greenyellow;
 }
@@ -212,4 +218,4 @@ article a {
 .articel-item-2 a:hover {
     background-color: #ccf381;
     color: #4831d4;
-}
+} */
