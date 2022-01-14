@@ -5,71 +5,146 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Michi Berger</title>
-
+  <title>Michi Berger | Web Developement Student at neuefische GmbH</title>
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@300;400;700&family=Vidaloka&display=swap" rel="stylesheet">  
   <!-- Fontawesome (https://fontawesome.com) -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
 integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<!-- Stylesheet -->
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>Michi Berger</h1>
-    <nav>
-      <a href="#contact">Contact</a>
-      <a href="#biography">Biography</a>
-    </nav>
-  </header>
 
-  <figure>
-    <img src="https://source.unsplash.com/random/600x300" alt="">
-    <figcaption>A random picture from unsplash.com</figcaption>
-  </figure>
+  <div class="container">
+    
+    <header>
+      <h1 class="title"><span class="thin">Michi</span><span class="bold">Berger</span></h1>
+      <p>web dev student at neuefische GmbH</p>
+      <nav class="nav-header">
+        <a class="button nav-header-btn nav-header-btn1" href="#skills">Skills</a>
+        <a class="button nav-header-btn nav-header-btn2" href="#contact">Contact</a>
+        <a class="button nav-header-btn nav-header-btn3" href="#contact">Works</a>
+        <a class="button nav-header-btn nav-header-btn4" href="#biography">Biography</a>
+      </nav>
+    </header>
 
-  <!-- skills section - e.g. skills (dev tools, dev languages), hobbies or interests -->
-  <section id="skills">
-    <h2 class="frontend-skills">Front-end Dev Languages:</h2>
-    <ul>
-      <li><i class="fab fa-html5"></i> | Semantic HTML</li>
-      <li><i class="fab fa-css3-alt"></i> | Responsive CSS</li>
-      <li><i class="fab fa-js"></i> | Javascript Basics</li>
-    </ul>
-    <h2 class="dev-tools">Dev Tools:</h2>
-    <ul>
-      <li><i class="fab fa-github"></i> | Github</li>
-      <li><i class="fas fa-terminal"></i></i> | Shell/Terminal</li>
-      <li><i class="fab fa-wordpress"></i> | Wordpress</li>
-    </ul>
-  </section>
+    <main>
+      <figure>
+        <img src="https://source.unsplash.com/random/600x300" alt="A random picture from unsplash.com" width="600" height="300">
+        <figcaption>A random picture from unsplash.com</figcaption>
+      </figure>
+      
+      <section id="skills">
+        <div class="skills-ctn">
 
-  <!-- contact section - address, email -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <address>
-      Num:<br>
-      +49 (0)170 - 233 XX XX <br>
-      <br>
-      Mail:<br>
-      <a href="mailto:mberger83@yahoo.de">mberger83@yahoo.de</a>
-    </address>
-  </section>
+          <div class="skills-item skills-item-header">
+            <h2>DevLanguages</h2>
+          </div>
+          <div class="skills-item list-container">
+            <ul class="list-item">
+              <li class="button list-btn">html</li>
+              <li class="button list-btn">css</li>
+              <li class="button list-btn">Javascript</li>
+            </ul>
+          </div>
 
-  <!-- recent-work section - github, codepen,  -->
-  <section id="recent-work"></section>
+          <div class="skills-item skills-item-header">
+            <h2>DevTools</h2>
+          </div>
+          <div class="skills-item list-container">
+            <ul class="list-item">
+              <li class="button list-btn">github</li>
+              <li class="button list-btn">shell</li>
+              <li class="button list-btn">wordpress</li>
+            </ul>
+          </div>
 
-  <!-- about-me section - short intro about me -->
-  <section id="about-me"></section>
+        </div>
+      </section>
 
-  <!-- biography section - working experience, education -->
-  <section id="biography">
-    <h2>Biography</h2>
-  </section>
 
-  <!-- footer and social-media section e.g. linkedIn, instagram, facebook -->
-  <footer id="footer">
-    <section id="social-media"></section>
-  </footer>
-  
+      <section id="contact" class="frontend-skills">
+
+          <div class="contact-ctn">
+
+            <h2 class="contact-item content-item-header">ContactMe</h2>
+
+            <address id="address" class="contact-item adress-ctn">
+
+              <div class="address-item">
+                <div class="address-item-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="address-item-number button">
+                  <p>+49 (0)170 - 233 XX XX</p>
+                </div>
+              </div>
+            
+              <div class="address-item email">
+                <div class="address-item-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="address-item-mail button">
+                  <a href="mailto:mberger83@yahoo.de">mberger83@xx.xx</a>
+                </div>
+              </div>
+
+            </address>
+
+          </div>
+
+      </section>
+
+
+      <!-- recent-work section - github, codepen,  -->
+      <section id="recent-work">
+        <h2>Github - Codepen - LinkedIn Pictures</h2>
+        <div class="article-container">
+          <article>
+            <img src="#" alt="Logo of github.com" width="300px" height="150px">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
+          </article>
+          <article>
+            <img src="#" alt="" width="300px" height="150px">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
+          </article>
+          <article>
+            <img src="#" alt="300px" width="150px" height="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aspernatur voluptatem rerum. Aut, facere quibusdam?</p>
+          </article>
+        </div>
+      </section>
+      <!-- about-me section - short intro about me -->
+      <section id="about-me">
+        <h2>About me</h2>
+        <div class="about-me-ctn">
+          <div class="about-me-item" >
+            <h3>About me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio, perferendis earum consequatur fugiat ad quam tenetur modi eos. Ratione?</p>
+          </div>
+          <div class="about-me-item" id="biography">
+            <h3>Biography</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio, perferendis earum consequatur fugiat ad quam tenetur modi eos. Ratione?</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer and social-media section e.g. linkedIn, instagram, facebook -->
+    <footer id="footer">
+      <nav class="nav-footer">
+        <a href="#skills" class="nav-footer-item">Skills</a>
+        <a href="#contact" class="nav-footer-item">Contact</a>
+        <a href="#recent-work" class="nav-footer-item">Recent Works</a>
+        <a href="#about-me" class="nav-footer-item">About me</a>
+      </nav>
+      <p>&copy;Copyright 2022</p>
+    </footer>
+    
+  </div>
 </body>
 
 </html>
