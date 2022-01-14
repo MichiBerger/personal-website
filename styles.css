@@ -17,7 +17,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
-a {
+a {
     text-decoration: none;
 }
 header {
@@ -93,7 +93,6 @@ ul {
 #skills{
     background-color: #4831d4;
     color:#ccf381; 
-    /* #4831d4; */
     padding-bottom: 25px;
 } 
 .skills-ctn, .skills-item {
@@ -118,8 +117,9 @@ ul {
     justify-content: center;
 }
 
-.skills-item-header, .content-item-header {
+.skills-item-header, .contact-item-header, .recent-work-header {
     margin: 15px 0 15px;
+    border: 1px solid black;
 }
 .list-btn {
     color: white;
@@ -134,7 +134,7 @@ li i {
     padding-bottom: 25px;
     
 }
-.contact-ctn, .adress-ctn, .address-item {
+.contact-ctn, .adress-ctn, .address-item, .recent-work-ctn, .article-cnt, article, .article-item {
     display: flex;
 }
 .contact-ctn {
@@ -163,7 +163,6 @@ li i {
     flex-grow: 1;
     padding: 10px; 
 }
-
 .address-item-number, .address-item-mail a{
     font-size: 1.2rem;
     font-style: normal;
@@ -172,4 +171,45 @@ li i {
 }
 .address-item-mail a {
     text-decoration: none;
+}
+/* Recent Works */
+#recent-work{
+    background-color: #4831d4;
+    color:#ccf381; 
+    padding-bottom: 25px;
+} 
+.recent-work-ctn, .article-cnt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.article-cnt {
+    gap: 10px;;
+}
+.article-item {
+    flex-direction: column;
+    border: 1px solid greenyellow;
+}
+.article-item-1 {
+    border: 1px solid greenyellow;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articel-item-2 {
+    background-color: #3d155f90;
+    padding: 25px 0;
+}
+article a {
+    text-decoration: none;
+    color: #ccf381;
+}
+
+.articel-item-2 a:hover {
+    background-color: #ccf381;
+    color: #4831d4;
 }
