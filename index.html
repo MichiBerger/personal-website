@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!-- Fontawesome (https://fontawesome.com) -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- My Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -25,10 +28,10 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#works">Works</a></li>
-                    <li><a href="#about-me">Biography</a></li>
+                    <li class="btn"><a href="#contact">Contact</a></li>
+                    <li class="btn"><a href="#skills">Skills</a></li>
+                    <li class="btn"><a href="#works">Works</a></li>
+                    <li class="btn"><a href="#about-me">Biography</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,51 +39,60 @@
             <section  id="skills">
                 <figure>
                     <img src="https://source.unsplash.com/random/600x400" alt="" width="300" height="auto">
-                    <figcaption>A random Picture from unsplash.com</figcaption>
+                    <figcaption class="thin">A random Picture from unsplash.com</figcaption>
                 </figure>
                 <div class="skills-ctn">
                     <div class="skills-item">
                         <h2>Skills</h2>
                         <ul>
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                            <li>github</li>
-                            <li>codepen</li>
-                            <li>wordpress</li>
+                            <li class="btn">html</li>
+                            <li class="btn">css</li>
+                            <li class="btn">javascript</li>
+                            <li class="btn">github</li>
+                            <li class="btn">codepen</li>
+                            <li class="btn">wordpress</li>
                         </ul>
                     </div>
                     <div class="skills-item">
                         <h2>Interests</h2>
                         <ul>
-                            <li>coding</li>
-                            <li>surfing</li>
-                            <li>football</li>
-                            <li>travelling</li>
+                            <li class="btn">coding</li>
+                            <li class="btn">surfing</li>
+                            <li class="btn">football</li>
+                            <li class="btn">travelling</li>
                         </ul>
                     </div>
                 </div>
             </section>
             <section id="contact">
-                <h2>Contact</h2>
-                <address>
-                    <p>+49(0)170 233XXXX</p>
-                    <p>mberger83[at]yahoo[dot]de</p>
+                <h2 class="contact-item">Contact</h2>
+                <address class="contact-item">
+                    <div class="address-item btn">
+                        <i class="fas fa-phone"></i>
+                        <p>+49 (0)170 233XXXX</p>
+                    </div>
+                    <div class="address-item btn">
+                        <i class="fas fa-envelope"></i>
+                        <p>mberger83[at]yahoo.de</p>
+                    </div>
                 </address>
+                
             </section>
             <section id="works">
                 <h2>Recent Works</h2>
-                <div>
-                    <img src="#" alt="" width="200" height="200">
-                    <a href=""></a>
-                </div>
-                <div>
-                    <img src="#" alt="" width="200" height="200">
-                    <a href=""></a>
-                </div>
-                <div>
-                    <img src="#" alt="" width="200" height="200">
-                    <a href=""></a>
+                <div class="works-ctn">
+                    <div class="works-item">
+                        <img src="#" alt="" width="200" height="200">
+                        <a href="">github</a>
+                    </div>
+                    <div class="works-item">
+                        <img src="#" alt="" width="200" height="200">
+                        <a href="">codepen</a>
+                    </div>
+                    <div class="works-item">
+                        <img src="#" alt="" width="200" height="200">
+                        <a href="">linkedin</a>
+                    </div>
                 </div>
             </section>
             <section id="about-me">
