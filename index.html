@@ -1,168 +1,107 @@
-<!DOCTYPE html> <!-- d.h. nimm immer die neueste Version von html-->
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Michi Berger | Web Developement Student at neuefische GmbH</title>
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michi Berger | Web Developement Student at neuefische GmbH</title>
+    <!-- Google Fonts     
+        font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Asap:ital@1&family=Roboto:wght@300;400;700&family=Vidaloka&display=swap" rel="stylesheet">  
-  <!-- Fontawesome (https://fontawesome.com) -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-<!-- Stylesheet -->
-<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-  <div class="container">
-    
-    <header>
-      <h1 class="title"><span class="thin">Michi</span><span class="bold">Berger</span></h1>
-      <p>web dev student at neuefische GmbH</p>
-      <nav class="nav-header">
-        <a class="button nav-header-btn nav-header-btn1" href="#skills">Skills</a>
-        <a class="button nav-header-btn nav-header-btn2" href="#contact">Contact</a>
-        <a class="button nav-header-btn nav-header-btn3" href="#recent-work">Works</a>
-        <a class="button nav-header-btn nav-header-btn4" href="#biography">Biography</a>
-      </nav>
-    </header>
-
-    <main>
-      <figure>
-        <img src="https://source.unsplash.com/random/600x300" alt="A random picture from unsplash.com" width="600" height="300">
-        <figcaption>A random picture from unsplash.com</figcaption>
-      </figure>
-      
-      <section id="skills">
-        <div class="skills-ctn">
-          <div class="skills-item skills-item-header">
-            <h2>DevLanguages</h2>
-          </div>
-          <div class="skills-item list-container">
-            <ul class="list-item">
-              <li class="button list-btn">html</li>
-              <li class="button list-btn">css</li>
-              <li class="button list-btn">Javascript</li>
-            </ul>
-          </div>
-          <div class="skills-item skills-item-header">
-            <h2>DevTools</h2>
-          </div>
-          <div class="skills-item list-container">
-            <ul class="list-item">
-              <li class="button list-btn">github</li>
-              <li class="button list-btn">shell</li>
-              <li class="button list-btn">wordpress</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-
-      <section id="contact">
-          <div class="contact-ctn">
-            <h2 class="contact-item contact-item-header">ContactMe</h2>
-            <address id="address" class="contact-item adress-ctn">
-              <div class="address-item">
-                <div class="address-item-icon">
-                  <i class="fas fa-phone"></i>
+    <div class="container">
+        <header>
+            <div id="title">
+                <h1><span class="thin">Michi</span>|<span class="bold">Berger</span></h1>
+                <p>web developement student at neuefische gmbh</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#about-me">Biography</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section  id="skills">
+                <figure>
+                    <img src="https://source.unsplash.com/random/600x400" alt="" width="300" height="auto">
+                    <figcaption>A random Picture from unsplash.com</figcaption>
+                </figure>
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>html</li>
+                        <li>css</li>
+                        <li>javascript</li>
+                        <li>github</li>
+                        <li>codepen</li>
+                        <li>wordpress</li>
+                    </ul>
+                    <h2>Interests</h2>
+                    <ul>
+                        <li>coding</li>
+                        <li>surfing</li>
+                        <li>football</li>
+                        <li>travelling</li>
+                        
+                    </ul>
                 </div>
-                <div class="address-item-number button">
-                  <p>+49 (0)170 - 233 XX XX</p>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <address>
+                    <p>+49(0)170 233XXXX</p>
+                    <p>mberger83[at]yahoo[dot]de</p>
+                </address>
+            </section>
+            <section id="works">
+                <h2>Recent Works</h2>
+                <div>
+                    <img src="#" alt="" width="200" height="200">
+                    <a href=""></a>
                 </div>
-              </div>
-              <div class="address-item email">
-                <div class="address-item-icon">
-                  <i class="fas fa-envelope"></i>
+                <div>
+                    <img src="#" alt="" width="200" height="200">
+                    <a href=""></a>
                 </div>
-                <div class="address-item-mail button">
-                  <a href="mailto:mberger83@yahoo.de">mberger83@xxxxx.xx</a>
+                <div>
+                    <img src="#" alt="" width="200" height="200">
+                    <a href=""></a>
                 </div>
-              </div>
-            </address>
-          </div>
-      </section>
-
-      <!-- recent-work section - github, codepen,  -->
-      <section id="recent-work">
-
-        <div class="recent-work-ctn">
-
-          <h2 class="recent-work-item recent-work-header">RecentWorks</h2>
-
-          <div class="recent-work-item article-cnt">
-            <article>
-              <div class="article-item">
-                <div class="article-item-1">
-                  <img src="github-logo-octocat-800x665.png" alt="" width="200" height="200">
+            </section>
+            <section id="about-me">
+                <h2>About Me</h2>
+                <div>
+                    <h2>About me</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis distinctio odit eum explicabo quos velit similique ea, fugit officia, consectetur, dolorum non ex saepe numquam.</p>
                 </div>
-                <div class="articel-item-2">
-                  <a href="#">Github</a>
+                <div>
+                    <h2>Biography</h2>
+                    <table>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae provident enim atque aliquid accusamus ullam, dolor iusto dicta. Ullam laborum ex necessitatibus facilis error!
+                    </table>
                 </div>
-              </div>
-            </article>
-
-            <article>
-              <div class="article-item">
-                <div class="article-item-1"><img src="codepen-logo-600x300.png" alt="" width="200" height="200">
-                </div>
-
-                <div class="articel-item-2">
-                  <a href="#">Codepen</a>
-                </div>
-              </div>
-            </article>
-
-            <article>
-
-              <div class="article-item">
-                <div class="article-item-1">
-                  <img src="linkedin-logo-2212x540.png" alt="" width="200" height="200">
-                </div>
-
-                <div class="articel-item-2">
-                  <a href="#">LinkedIn</a>
-                </div>
-              </div>
-
-            </article>
-          </div>
-
-        </div>
-
-      </section>
-      <!-- about-me section - short intro about me -->
-      <section id="about-me">
-        <h2>About me</h2>
-        <div class="about-me-ctn">
-          <div class="about-me-item" >
-            <h3>About me</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio, perferendis earum consequatur fugiat ad quam tenetur modi eos. Ratione?</p>
-          </div>
-          <div class="about-me-item" id="biography">
-            <h3>Biography</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis distinctio, perferendis earum consequatur fugiat ad quam tenetur modi eos. Ratione?</p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- footer and social-media section e.g. linkedIn, instagram, facebook -->
-    <footer id="footer">
-      <nav class="nav-footer">
-        <a href="#skills" class="nav-footer-item">Skills</a>
-        <a href="#contact" class="nav-footer-item">Contact</a>
-        <a href="#recent-work" class="nav-footer-item">Recent Works</a>
-        <a href="#about-me" class="nav-footer-item">About me</a>
-      </nav>
-      <p>&copy;Copyright 2022</p>
-    </footer>
-    
-  </div>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Social</a></li>
+            </nav>
+        </footer>
+    </div>
 </body>
-
 </html>
