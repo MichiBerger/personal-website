@@ -30,8 +30,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1.5rem 0;
-    min-height: 100px;
+    padding: 1.5rem 1.5rem;
     background-color: #9bd0ef19;
 }
 #title {
@@ -41,7 +40,8 @@ header {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    padding: 0.6rem;
+    padding-bottom: 1.5rem;
+    
 }
 #title h1 {
     text-transform: uppercase;
@@ -116,6 +116,7 @@ figcaption {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
+    padding-left: 1rem;
   }
 .skills-item {
   display: flex;
@@ -223,9 +224,10 @@ address {
 #about-me {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 0;
+  padding: 1.5rem;
   gap: 2rem;
   flex-wrap: wrap;
+  border: 1px solid black;
 }
 .about-me-ctn {
   display: flex;
@@ -265,7 +267,7 @@ footer ul {
 }
 
 /* media queries */
-@media (min-width: 400px){
+@media (min-width: 800px){
     /* header-start */
     #title {
         align-items: flex-start;
@@ -273,6 +275,7 @@ footer ul {
     }
     header {
         justify-content: space-between;
+        
     }
     /* header-end */
 }
