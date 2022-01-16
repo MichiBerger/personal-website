@@ -227,7 +227,6 @@ address {
   padding: 1.5rem;
   gap: 2rem;
   flex-wrap: wrap;
-  border: 1px solid black;
 }
 .about-me-ctn {
   display: flex;
@@ -236,7 +235,6 @@ address {
   flex-grow: 1;
   flex-basis: 0;
   background-color: #9bd0ef19;
-  /* background-color: rgba(255, 255, 255, 0.4); */
   border-radius: 25px;
   padding: 1.5rem;
 }
