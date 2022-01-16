@@ -78,6 +78,8 @@ header nav li a {
     display: block;
     flex-grow: 1;
     flex-basis: 0;
+    padding: 0.4rem 1.5rem;
+    border: 1px solid #9bd0ef;
 }
 .btn {
   border: 1px solid #9bd0ef;
@@ -263,7 +265,7 @@ footer ul {
 }
 
 /* media queries */
-@media (min-width: 738px){
+@media (min-width: 400px){
     /* header-start */
     #title {
         align-items: flex-start;
