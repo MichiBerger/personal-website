@@ -1,0 +1,35 @@
+.main-nav__list {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-nav__item {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-nav__link {
+  display: block;
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 0.4rem 1.5rem;
+  border: 1px solid #9bd0ef;
+}
+.main-nav__link--black {
+  color: black;
+}
+.main-nav__link--red {
+  color: white;
+  border-color: red;
+  background-color: red;
+}
+.main-nav__link:hover {
+  color: #2d78a3;
+  font-size: 1.1rem;
+  background-color: #9bd0ef;
+}
