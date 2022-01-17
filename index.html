@@ -28,7 +28,7 @@
 
   <body>
     <div class="container">
-      <header>
+      <header class="header">
         <div id="title">
           <h1>
             <span class="thin">Michi</span>|<span class="bold">Berger</span>
@@ -58,7 +58,7 @@
             </figcaption>
           </figure>
           <div class="skills-ctn">
-            <div class="skills-item">
+            <article class="skills-item">
               <h2>Skills</h2>
               <ul>
                 <li class="btn">html</li>
@@ -68,8 +68,8 @@
                 <li class="btn">codepen</li>
                 <li class="btn">wordpress</li>
               </ul>
-            </div>
-            <div class="skills-item">
+            </article>
+            <article class="skills-item">
               <h2>Interests</h2>
               <ul>
                 <li class="btn">coding</li>
@@ -77,7 +77,7 @@
                 <li class="btn">football</li>
                 <li class="btn">travelling</li>
               </ul>
-            </div>
+            </article>
           </div>
         </section>
         <section id="contact">
@@ -105,7 +105,7 @@
             >
               <img
                 src="/images/github-logo.svg"
-                alt=""
+                alt="Logo of github and a link to my github website"
                 width="200"
                 height="200"
               />
@@ -118,7 +118,7 @@
             >
               <img
                 src="/images/codepen-logo.svg"
-                alt=""
+                alt="Logo of codepen and link to my codepen website"
                 width="200"
                 height="200"
               />
@@ -131,7 +131,7 @@
             >
               <img
                 src="/images/linkedin-logo.svg"
-                alt=""
+                alt="Logo of linkedin and link to my linkedin website"
                 width="200"
                 height="200"
               />
@@ -142,55 +142,61 @@
         <section id="about-me">
           <div class="about-me-ctn">
             <h2>About me</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
-              dolores, nesciunt possimus, numquam incidunt asperiores illum
-              omnis exercitationem libero unde maiores soluta nihil quibusdam.
-              Ratione vitae rerum rem numquam aspernatur.
-            </p>
+            <details>
+              <summary>More information</summary>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Itaque, dolores, nesciunt possimus, numquam incidunt asperiores
+                illum omnis exercitationem libero unde maiores soluta nihil
+                quibusdam. Ratione vitae rerum rem numquam aspernatur.
+              </p>
+            </details>
           </div>
           <div class="about-me-ctn">
             <h2>Biography</h2>
-            <table>
-              <tbody>
-                <tr>
-                  <td>01/2022 - bis heute</td>
-                  <td>Web Developement Student at neuefische GmbH</td>
-                </tr>
-                <tr>
-                  <td>02/2019 - 01/2022</td>
-                  <td>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Beatae, tempora?
-                  </td>
-                </tr>
-                <tr>
-                  <td>07/2018 - 02/2019</td>
-                  <td>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Maiores, quasi?
-                  </td>
-                </tr>
-                <tr>
-                  <td>08/2016 - 07/2018</td>
-                  <td>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Nemo, expedita!
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <details>
+              <summary>More information</summary>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>01/2022 - bis heute</td>
+                    <td>Web Developement Student at neuefische GmbH</td>
+                  </tr>
+                  <tr>
+                    <td>02/2019 - 01/2022</td>
+                    <td>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Beatae, tempora?
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>07/2018 - 02/2019</td>
+                    <td>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Maiores, quasi?
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>08/2016 - 07/2018</td>
+                    <td>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Nemo, expedita!
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </details>
           </div>
         </section>
       </main>
-      <footer>
+      <footer class="footer">
         <nav>
           <ul>
             <li>
               <a href="https://codepen.io/" target="_blank"
                 ><img
                   src="/images/codepen-logo.svg"
-                  alt=""
+                  alt="Logo of codepen and link to my codepen website"
                   width="60"
                   height="60"
               /></a>
@@ -199,7 +205,7 @@
               <a href="https://de.linkedin.com/" target="_blank"
                 ><img
                   src="/images/linkedin-logo.svg"
-                  alt=""
+                  alt="Logo of linkedin and link to my linkedin website"
                   width="60"
                   height="60"
               /></a>
@@ -208,7 +214,7 @@
               <a href="https://github.com/" target="_blank"
                 ><img
                   src="/images/github-logo.svg"
-                  alt=""
+                  alt="Logo of github and a link to my github website"
                   width="60"
                   height="60"
               /></a>
