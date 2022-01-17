@@ -26,10 +26,6 @@ a {
 li {
   list-style-type: none;
 }
-.container {
-  max-width: 1292px;
-  margin: 0 auto;
-}
 /* header section */
 .header {
   display: flex;
