@@ -23,12 +23,13 @@
 .main-nav__link--black {
   color: black;
 }
+/* --red just for testing - needs to be deleted later */
 .main-nav__link--red {
   color: white;
   border-color: red;
   background-color: red;
 }
-.main-nav__link:hover {
+.main-nav__link--hover:hover {
   color: #2d78a3;
   font-size: 1.1rem;
   background-color: #9bd0ef;
