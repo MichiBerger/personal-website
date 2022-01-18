@@ -1,8 +1,6 @@
 .header {
-  display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   padding: 1.5rem 1.5rem;
   background-color: #9bd0ef19;
 }
