@@ -27,69 +27,76 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="body__ctn">
       <header class="header">
-        <div id="title">
-          <h1>
-            <span class="thin">Michi</span>|<span class="bold">Berger</span>
+        <div id="title" class="header__title-ctn">
+          <h1 class="header__title header__title--black">
+            <span class="font-light">Michi</span>|<span class="bold">Berger</span>
           </h1>
-          <p>web developement student at neuefische gmbh</p>
+          <p class="header__subtitle header__subtitle--black">web developement student at neuefische gmbh</p>
         </div>
-        <nav>
-          <ul>
-            <li><a class="nav-btn-1" href="#contact">Contact</a></li>
-            <li><a class="nav-btn-2" href="#skills">Skills</a></li>
-            <li><a class="nav-btn-3" href="#works">Works</a></li>
-            <li><a class="nav-btn-4" href="#about-me">Biography</a></li>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--black main-nav__link--hover" href="#contact">Contact</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--red main-nav__link--hover" href="#skills">Skills</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--hover" href="#works">Works</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link main-nav__link--hover" href="#about-me">Biography</a>
+            </li>
           </ul>
         </nav>
       </header>
       <main>
-        <section id="skills">
-          <figure>
+        <section id="skills" class="skills">
+          <figure class="skills__figure">
             <img
+              class="skills__image"
               src="https://source.unsplash.com/random/600x400"
               alt=""
               width="300"
               height="auto"
             />
-            <figcaption class="thin">
-              A random Picture from unsplash.com
-            </figcaption>
+            <figcaption class="skills__figcaption--black font-light">A random Picture from unsplash.com</figcaption>
           </figure>
-          <div class="skills-ctn">
-            <article class="skills-item">
-              <h2>Skills</h2>
-              <ul>
-                <li class="btn">html</li>
-                <li class="btn">css</li>
-                <li class="btn">javascript</li>
-                <li class="btn">github</li>
-                <li class="btn">codepen</li>
-                <li class="btn">wordpress</li>
+          <div class="skills__ctn">
+            <article class="skills__article">
+              <h2 class="skills__header">Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item button button--blue">html</li>
+                <li class="skills__item button button--blue">css</li>
+                <li class="skills__item button button--blue">javascript</li>
+                <li class="skills__item button button--blue">github</li>
+                <li class="skills__item button button--blue">codepen</li>
+                <li class="skills__item button button--blue">wordpress</li>
               </ul>
             </article>
-            <article class="skills-item">
-              <h2>Interests</h2>
-              <ul>
-                <li class="btn">coding</li>
-                <li class="btn">surfing</li>
-                <li class="btn">football</li>
-                <li class="btn">travelling</li>
+            <article class="skills__article">
+              <h2 class="skills__header">Interests</h2>
+              <ul class="skills__list">
+                <li class="skills__item button button--blue">coding</li>
+                <li class="skills__item button button--blue">surfing</li>
+                <li class="skills__item button button--blue">football</li>
+                <li class="skills__item button button--blue">travelling</li>
               </ul>
             </article>
           </div>
         </section>
-        <section id="contact">
-          <h2 class="contact-item">Contact</h2>
-          <address class="contact-item">
-            <div class="address-item">
-              <i class="fas fa-phone"></i>
-              <p>+49 (0)170 233XXXX</p>
+        <section id="contact" class="contact">
+          <h2 class="contact__header">Contact</h2>
+          <address class="contact__address">
+            <div class="address__ctn">
+              <i class="addree__icon fas fa-phone"></i>
+              <p class="address__text">+49 (0)170 233XXXX</p>
             </div>
-            <div class="address-item">
-              <i class="fas fa-envelope"></i>
-              <p>
+            <div class="address__ctn">
+              <i class="address__icon fas fa-envelope"></i>
+              <p class="address__text">
                 <a href="mailto:mberger83@yahoo.de">mberger83[at]yahoo.de</a>
               </p>
             </div>
@@ -98,11 +105,7 @@
         <section id="works">
           <h2>Recent Works</h2>
           <div class="works-ctn">
-            <a
-              class="works-item"
-              href="https://github.com/MichiBerger"
-              target="_blank"
-            >
+            <a class="works-item" href="https://github.com/MichiBerger" target="_blank">
               <img
                 src="/images/github-logo.svg"
                 alt="Logo of github and a link to my github website"
@@ -111,11 +114,7 @@
               />
               <h3>github</h3>
             </a>
-            <a
-              class="works-item"
-              href="https://codepen.io/mberger83"
-              target="_blank"
-            >
+            <a class="works-item" href="https://codepen.io/mberger83" target="_blank">
               <img
                 src="/images/codepen-logo.svg"
                 alt="Logo of codepen and link to my codepen website"
@@ -124,11 +123,7 @@
               />
               <h3>codepen</h3>
             </a>
-            <a
-              class="works-item"
-              href="https://www.linkedin.com/in/michael-berger-697321158/"
-              target="_blank"
-            >
+            <a class="works-item" href="https://www.linkedin.com/in/michael-berger-697321158/" target="_blank">
               <img
                 src="/images/linkedin-logo.svg"
                 alt="Logo of linkedin and link to my linkedin website"
@@ -145,10 +140,9 @@
             <details>
               <summary>More information</summary>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Itaque, dolores, nesciunt possimus, numquam incidunt asperiores
-                illum omnis exercitationem libero unde maiores soluta nihil
-                quibusdam. Ratione vitae rerum rem numquam aspernatur.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolores, nesciunt possimus, numquam
+                incidunt asperiores illum omnis exercitationem libero unde maiores soluta nihil quibusdam. Ratione vitae
+                rerum rem numquam aspernatur.
               </p>
             </details>
           </div>
@@ -164,24 +158,15 @@
                   </tr>
                   <tr>
                     <td>02/2019 - 01/2022</td>
-                    <td>
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Beatae, tempora?
-                    </td>
+                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, tempora?</td>
                   </tr>
                   <tr>
                     <td>07/2018 - 02/2019</td>
-                    <td>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Maiores, quasi?
-                    </td>
+                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, quasi?</td>
                   </tr>
                   <tr>
                     <td>08/2016 - 07/2018</td>
-                    <td>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Nemo, expedita!
-                    </td>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, expedita!</td>
                   </tr>
                 </tbody>
               </table>
