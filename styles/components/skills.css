@@ -1,10 +1,12 @@
-/* skills-section */
+
 .skills {
   display: flex;
   flex-wrap: wrap;
   padding: 1.5rem 0;
-  color: #000;
   gap: 1rem;
+}
+.skills--black {
+  color: #000;
 }
 .skills__figure {
   flex-grow: 1;

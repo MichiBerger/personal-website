@@ -6,48 +6,8 @@
 @import "./components/nav-bar.css";
 @import "./components/button.css";
 @import "./components/skills.css";
+@import "./components/contact.css";
 
-/* contact section */
-#contact {
-  text-align: center;
-  padding: 1.5rem 0;
-  border-top: 1px solid #9bd0ef;
-  border-bottom: 1px solid #9bd0ef;
-  display: flex;
-  flex-direction: column;
-}
-#contact h2 {
-  margin-bottom: 1.5rem;
-}
-address {
-  display: flex;
-  flex-wrap: wrap;
-  font-style: normal;
-  gap: 2rem;
-  flex-grow: 1;
-  flex-basis: 0;
-  padding: 0 2rem;
-}
-.address-item {
-  padding: 2rem 0;
-  background-color: #9bd0ef19;
-  border-radius: 25px;
-  flex-grow: 1;
-  flex-basis: 0;
-  padding: 2rem;
-}
-.address-item i {
-  font-size: 1.5rem;
-  color: #fff;
-  background-color: #2d78a3;
-  border: 1px solid #9bd0ef;
-  padding: 1rem;
-  border-radius: 20px;
-}
-.address-item p {
-  font-size: 1rem;
-  margin-top: 0.7rem;
-}
 /* works section */
 #works {
   text-align: center;
