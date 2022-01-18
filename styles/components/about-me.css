@@ -1,0 +1,24 @@
+/* about me section */
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.about-me__ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-basis: 0;
+  background-color: #9bd0ef19;
+  border-radius: 25px;
+  padding: 1.5rem;
+}
+.about-me__header {
+  align-self: center;
+  border-bottom: 1px solid #3d155f;
+  margin-bottom: 1.5rem;
+}
+

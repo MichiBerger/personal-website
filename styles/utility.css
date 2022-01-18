@@ -1,6 +1,9 @@
 .font-light {
   font-weight: 300;
 }
+.font-bold {
+  font-weight: 700;
+}
 
 /* Needs to be cleariefied if we should use them flexbox settings - like tailwindcss
 .flex {

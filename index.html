@@ -31,7 +31,7 @@
       <header class="header">
         <div id="title" class="header__title-ctn">
           <h1 class="header__title header__title--black">
-            <span class="font-light">Michi</span>|<span class="bold">Berger</span>
+            <span class="font-light">Michi</span>|<span class="font-bold">Berger</span>
           </h1>
           <p class="header__subtitle header__subtitle--black">web developement student at neuefische gmbh</p>
         </div>
@@ -91,54 +91,61 @@
           <h2 class="contact__header">Contact</h2>
           <address class="contact__address">
             <div class="address__ctn">
-              <i class="addree__icon fas fa-phone"></i>
+              <i class="address__icon address__icon--white fas fa-phone"></i>
               <p class="address__text">+49 (0)170 233XXXX</p>
             </div>
             <div class="address__ctn">
-              <i class="address__icon fas fa-envelope"></i>
+              <i class="address__icon address__icon--white fas fa-envelope"></i>
               <p class="address__text">
                 <a href="mailto:mberger83@yahoo.de">mberger83[at]yahoo.de</a>
               </p>
             </div>
           </address>
         </section>
-        <section id="works">
-          <h2>Recent Works</h2>
-          <div class="works-ctn">
-            <a class="works-item" href="https://github.com/MichiBerger" target="_blank">
+        <section id="works" class="works">
+          <h2 class="works__header">Recent Works</h2>
+          <div class="works__ctn">
+            <a class="works__links works__links--hover" href="https://github.com/MichiBerger" target="_blank">
               <img
+                class="works__image"
                 src="/images/github-logo.svg"
                 alt="Logo of github and a link to my github website"
                 width="200"
                 height="200"
               />
-              <h3>github</h3>
+              <h3 class="works__subtitle">github</h3>
             </a>
-            <a class="works-item" href="https://codepen.io/mberger83" target="_blank">
+            <a class="works__links works__links--hover" href="https://codepen.io/mberger83" target="_blank">
               <img
+                class="works__image"
                 src="/images/codepen-logo.svg"
                 alt="Logo of codepen and link to my codepen website"
                 width="200"
                 height="200"
               />
-              <h3>codepen</h3>
+              <h3 class="works__subtitle">codepen</h3>
             </a>
-            <a class="works-item" href="https://www.linkedin.com/in/michael-berger-697321158/" target="_blank">
+            <a
+              class="works__links works__links--hover"
+              href="https://www.linkedin.com/in/michael-berger-697321158/"
+              target="_blank"
+            >
               <img
+                class="works__image"
                 src="/images/linkedin-logo.svg"
                 alt="Logo of linkedin and link to my linkedin website"
                 width="200"
                 height="200"
               />
-              <h3>linkedin</h3>
+              <h3 class="works__subtitle">linkedin</h3>
             </a>
           </div>
         </section>
-        <section id="about-me">
-          <div class="about-me-ctn">
-            <h2>About me</h2>
-            <details>
-              <summary>More information</summary>
+        <section id="about-me" class="about-me">
+          <div class="about-me__ctn">
+            <h2 class="about-me__header">About me</h2>
+            <details class="about-me__details">
+              <summary class="about-me__summary">More information</summary>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolores, nesciunt possimus, numquam
                 incidunt asperiores illum omnis exercitationem libero unde maiores soluta nihil quibusdam. Ratione vitae
@@ -146,30 +153,27 @@
               </p>
             </details>
           </div>
-          <div class="about-me-ctn">
-            <h2>Biography</h2>
-            <details>
-              <summary>More information</summary>
-              <table>
-                <tbody>
-                  <tr>
-                    <td>01/2022 - bis heute</td>
-                    <td>Web Developement Student at neuefische GmbH</td>
-                  </tr>
-                  <tr>
-                    <td>02/2019 - 01/2022</td>
-                    <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, tempora?</td>
-                  </tr>
-                  <tr>
-                    <td>07/2018 - 02/2019</td>
-                    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, quasi?</td>
-                  </tr>
-                  <tr>
-                    <td>08/2016 - 07/2018</td>
-                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, expedita!</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="about-me__ctn">
+            <h2 class="about-me__header">Biography</h2>
+            <details class="about-me__details">
+              <summary class="about-me__summary">More information</summary>
+              <dl class="about-me__description-list">
+                <dt class="description__details font-bold">01/2022 bis heute</dt>
+                <dd class="description__text">Web Developement Student at neuefische GmbH</dd>
+                <dt class="description__details font-bold">02/2019 bis 01/2022</dt>
+                <dd class="description__text">Freier Foto-, Video- & Produktionsassistent</dd>
+                <dt class="description__details font-bold">07/2018 bis 02/2019</dt>
+                <dd class="description__text">
+                  Projektkoordinator Homologation und Typzulassung BMW Group via Bertrand Ingenieurbüro
+                </dd>
+                <dt class="description__details font-bold">08/2016 bis 07/2018</dt>
+                <dd class="description__text">
+                  Kfm. Mitarbeiter für den Mitglieder- und Kundenservice, Sektion Oberland des Deutschen Alpenvereins
+                  e.V.
+                </dd>
+                <dt class="description__details font-bold">03/2015 bis 02/2016</dt>
+                <dd>Tourismusmanager im Bereich Sales- & Customerservice, Puresurfcamps GmbH</dd>
+              </dl>
             </details>
           </div>
         </section>
