@@ -12,7 +12,7 @@
   align-items: flex-start;
   flex-grow: 1;
   flex-basis: 0;
-  background-color: #9bd0ef19;
+  background-color: var(--color-light-blue-opacity);
   border-radius: 25px;
   padding: 1.5rem;
 }
@@ -21,4 +21,3 @@
   border-bottom: 1px solid #3d155f;
   margin-bottom: 1.5rem;
 }
-

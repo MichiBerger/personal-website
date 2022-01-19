@@ -18,7 +18,7 @@
   flex-grow: 1;
   flex-basis: 0;
   padding: 0.4rem 1.5rem;
-  border: 1px solid #9bd0ef;
+  border: 1px solid var(--color-light-blue);
 }
 .main-nav__link--black {
   color: black;
@@ -29,8 +29,8 @@
   border-color: red;
   background-color: red;
 }
-.main-nav__link--hover:hover {
-  color: #2d78a3;
+.main-nav__link:hover {
+  color: var(--color-dark-blue);
   font-size: 1.1rem;
-  background-color: #9bd0ef;
+  background-color: var(--color-light-blue);
 }
