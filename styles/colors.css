@@ -1,4 +1,5 @@
 :root {
-  --dark-blue: #2d78a3;
-  --light-blue: #9bd0ef;
+  --color-dark-blue: #2d78a3;
+  --color-light-blue: #9bd0ef;
+  --color-light-blue-opacity: rgba(155, 208, 239, 0.098);
 }

@@ -11,7 +11,7 @@
 @import "./components/about-me.css";
 
 .footer {
-  background-color: #2d78a3;
+  background-color: var(--color-dark-blue);
   padding: 1.5rem 0;
   text-align: center;
   color: #fff;
